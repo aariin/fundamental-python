@@ -11,7 +11,12 @@ print(dict_ID_EN['anak'])
 print('\nData ini dikirimkan oleh server Gojek untuk memberikan info driver di sekitar pemakai aplikasi')
 data_dari_server_gojek = {
     'tanggal': '2020-07-01',
-    'driver_list': [{'nama': 'Nina', 'jarak': 100}, {'Alex'}, {'Laura'}, {'Onky'}]
+    'driver_list': [
+        {'nama': 'Nina', 'jarak': 100},
+        {'nama': 'Alex', 'jarak': 150},
+        {'nama': 'Laura', 'jarak': 160},
+        {'nama': 'Onky', 'jarak': 175}
+    ]
 }
 print(data_dari_server_gojek)
 print(f"driver di sekitar sini {data_dari_server_gojek['driver_list']}")
