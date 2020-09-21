@@ -9,3 +9,4 @@ or we can use syntax:
 import geometry.triangle as ta
 print(f'calculate area triangle {gs.areatriangle(20,100)}')
 """
+
